@@ -1,0 +1,7 @@
+User
+
+id                INT, PRIMARY KEY (=> AUTO_INCREMENT, NOT NULL, UNIQUE, INDEX)
+name              VARCHAR(30), NOT NULL
+last_name         VARCHAR(30), NOT NULL
+age               TINYINT, NOT NULL
+email             VARCHAR(100), NOT NULL           
