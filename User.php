@@ -22,5 +22,13 @@ class User {
 
         }
     }
+
+    public function emailControl($_email){
+        if (!filter_var($_email, FILTER_VALIDATE_EMAIL)) {
+            throw new Exception("Error: Invalid Email");
+        } else {
+            $this->email = $_email;
+        }
+    }
 }
 ?>
