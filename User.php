@@ -30,5 +30,9 @@ class User {
             $this->email = $_email;
         }
     }
+
+    public function getAge(){
+        return $this->age ;
+    }
 }
 ?>

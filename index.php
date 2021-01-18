@@ -37,6 +37,7 @@ var_dump($users);
         <?php foreach ($users as $user): ?>
             <p>Name: <?php echo $user->name ?></p>
             <p>Last Name: <?php echo $user->lastname ?></p>
+            <p>Age: <?php echo $user->getAge() ?></p>
             <p>Email: <?php echo $user->email ?></p>
         <?php endforeach; ?>
 
